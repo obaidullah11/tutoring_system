@@ -1,0 +1,377 @@
+INFO 2025-04-24 16:30:15,000 autoreload 26860 23256 Watching for file changes with StatReloader
+INFO 2025-04-24 16:30:57,506 autoreload 26860 23256 C:\Users\hp\Desktop\Automated-Tutoring-System\tutoring_system\settings.py changed, reloading.
+INFO 2025-04-24 16:30:58,334 autoreload 8344 9212 Watching for file changes with StatReloader
+INFO 2025-04-24 16:31:57,068 autoreload 8344 9212 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 16:31:57,758 autoreload 24388 15020 Watching for file changes with StatReloader
+INFO 2025-04-24 16:32:07,251 autoreload 24388 15020 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-24 16:32:07,964 autoreload 15844 14480 Watching for file changes with StatReloader
+INFO 2025-04-24 16:32:26,982 autoreload 18480 18684 Watching for file changes with StatReloader
+INFO 2025-04-24 16:32:37,194 basehttp 18480 20492 "GET / HTTP/1.1" 200 1633
+INFO 2025-04-24 16:32:37,493 basehttp 18480 20492 "GET /?format=openapi HTTP/1.1" 200 23405
+INFO 2025-04-24 16:35:43,593 autoreload 18480 18684 C:\Users\hp\Desktop\Automated-Tutoring-System\users\models.py changed, reloading.
+INFO 2025-04-24 16:35:44,291 autoreload 9088 9168 Watching for file changes with StatReloader
+INFO 2025-04-24 16:35:46,978 autoreload 9088 9168 C:\Users\hp\Desktop\Automated-Tutoring-System\users\models.py changed, reloading.
+INFO 2025-04-24 16:35:47,701 autoreload 16812 24712 Watching for file changes with StatReloader
+INFO 2025-04-24 16:35:57,991 autoreload 16812 24712 C:\Users\hp\Desktop\Automated-Tutoring-System\users\models.py changed, reloading.
+INFO 2025-04-24 16:35:58,724 autoreload 11444 20228 Watching for file changes with StatReloader
+INFO 2025-04-24 16:45:11,362 autoreload 18516 19148 Watching for file changes with StatReloader
+INFO 2025-04-24 16:50:46,555 autoreload 21288 22928 Watching for file changes with StatReloader
+INFO 2025-04-24 16:50:48,674 basehttp 21288 3636 "GET / HTTP/1.1" 200 1633
+INFO 2025-04-24 16:50:49,290 basehttp 21288 3636 "GET /?format=openapi HTTP/1.1" 200 546
+INFO 2025-04-24 16:50:52,352 basehttp 21288 3636 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-04-24 16:50:52,406 basehttp 21288 3636 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3079
+INFO 2025-04-24 16:51:10,488 basehttp 21288 3636 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-04-24 16:51:10,630 basehttp 21288 3636 "GET /admin/ HTTP/1.1" 200 9950
+INFO 2025-04-24 16:51:17,080 basehttp 21288 3636 "GET /admin/users/user/ HTTP/1.1" 200 19455
+INFO 2025-04-24 16:51:17,143 basehttp 21288 3636 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-24 16:51:35,417 basehttp 21288 3636 "GET /admin/ HTTP/1.1" 200 9950
+INFO 2025-04-24 16:52:42,993 autoreload 21288 22928 C:\Users\hp\Desktop\Automated-Tutoring-System\tutoring_system\settings.py changed, reloading.
+INFO 2025-04-24 16:52:43,692 autoreload 11036 26016 Watching for file changes with StatReloader
+INFO 2025-04-24 16:53:13,912 autoreload 11036 26016 C:\Users\hp\Desktop\Automated-Tutoring-System\tutoring_system\swagger.py changed, reloading.
+INFO 2025-04-24 16:53:14,590 autoreload 15096 19032 Watching for file changes with StatReloader
+INFO 2025-04-24 16:53:30,450 basehttp 15096 10108 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 16:53:30,649 basehttp 15096 10108 "GET /?format=openapi HTTP/1.1" 200 552
+INFO 2025-04-24 16:54:41,755 autoreload 15096 19032 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-24 16:54:42,455 autoreload 17876 5336 Watching for file changes with StatReloader
+INFO 2025-04-24 16:57:05,629 autoreload 17876 5336 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 16:57:06,487 autoreload 24232 3044 Watching for file changes with StatReloader
+INFO 2025-04-24 17:02:27,925 autoreload 24232 3044 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:05:06,898 autoreload 27256 21744 Watching for file changes with StatReloader
+INFO 2025-04-24 17:05:50,829 autoreload 27256 21744 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:05:51,512 autoreload 18868 2456 Watching for file changes with StatReloader
+INFO 2025-04-24 17:10:37,766 autoreload 23072 22212 Watching for file changes with StatReloader
+INFO 2025-04-24 17:10:41,537 basehttp 23072 22244 "GET / HTTP/1.1" 200 1639
+ERROR 2025-04-24 17:10:42,021 log 23072 22244 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 133, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\openapi.py", line 685, in setdefault
+    ret = maker()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 102, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'password' was declared on serializer RegisterUserSerializer, but has not been included in the 'fields' option.
+ERROR 2025-04-24 17:10:42,029 basehttp 23072 22244 "GET /?format=openapi HTTP/1.1" 500 212183
+INFO 2025-04-24 17:13:05,142 autoreload 23072 22212 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:13:05,871 autoreload 2972 12736 Watching for file changes with StatReloader
+INFO 2025-04-24 17:13:08,162 basehttp 2972 25764 "GET / HTTP/1.1" 200 1639
+ERROR 2025-04-24 17:13:08,461 log 2972 25764 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 133, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\openapi.py", line 685, in setdefault
+    ret = maker()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 102, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'password' was declared on serializer RegisterUserSerializer, but has not been included in the 'fields' option.
+ERROR 2025-04-24 17:13:08,465 basehttp 2972 25764 "GET /?format=openapi HTTP/1.1" 500 212183
+INFO 2025-04-24 17:15:31,983 autoreload 2972 12736 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:15:32,695 autoreload 26644 24260 Watching for file changes with StatReloader
+INFO 2025-04-24 17:15:40,854 basehttp 26644 26328 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 17:15:41,133 basehttp 26644 26328 "GET /?format=openapi HTTP/1.1" 200 2640
+ERROR 2025-04-24 17:17:10,483 log 26644 26328 Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py", line 893, in post
+    serializer = RegisterUserSerializer(data=request.data, files=request.FILES)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 119, in __init__
+    super().__init__(**kwargs)
+TypeError: Field.__init__() got an unexpected keyword argument 'files'
+ERROR 2025-04-24 17:17:10,488 basehttp 26644 26328 "POST /api/register/ HTTP/1.1" 500 22210
+INFO 2025-04-24 17:18:25,351 autoreload 26644 24260 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 17:18:26,036 autoreload 7384 13528 Watching for file changes with StatReloader
+INFO 2025-04-24 17:18:37,715 autoreload 7384 13528 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 17:18:38,418 autoreload 19912 26940 Watching for file changes with StatReloader
+INFO 2025-04-24 17:18:57,188 basehttp 19912 23528 "POST /api/register/ HTTP/1.1" 201 869
+ERROR 2025-04-24 17:20:19,589 log 19912 23528 Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py", line 896, in post
+    logger.warning("Registration validation failed: %s", serializer.errors)
+NameError: name 'logger' is not defined
+ERROR 2025-04-24 17:20:19,591 basehttp 19912 23528 "POST /api/register/ HTTP/1.1" 500 21981
+INFO 2025-04-24 17:21:28,568 autoreload 19912 26940 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 17:21:29,240 autoreload 13756 12936 Watching for file changes with StatReloader
+WARNING 2025-04-24 17:21:35,742 log 13756 22484 Bad Request: /api/register/
+WARNING 2025-04-24 17:21:35,743 basehttp 13756 22484 "POST /api/register/ HTTP/1.1" 400 77
+INFO 2025-04-24 17:21:55,211 basehttp 13756 22484 "POST /api/register/ HTTP/1.1" 201 871
+INFO 2025-04-24 17:24:22,285 autoreload 13756 12936 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:24:22,993 autoreload 20072 19052 Watching for file changes with StatReloader
+INFO 2025-04-24 17:24:49,859 autoreload 20072 19052 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 17:24:50,606 autoreload 15732 10844 Watching for file changes with StatReloader
+INFO 2025-04-24 17:25:11,022 autoreload 15732 10844 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 17:25:11,677 autoreload 6996 9488 Watching for file changes with StatReloader
+INFO 2025-04-24 17:25:35,447 autoreload 6996 9488 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:25:36,167 autoreload 25836 6824 Watching for file changes with StatReloader
+INFO 2025-04-24 17:25:43,411 basehttp 25836 18772 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 17:25:43,829 basehttp 25836 18772 "GET /?format=openapi HTTP/1.1" 200 2640
+INFO 2025-04-24 17:26:06,739 autoreload 25836 6824 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-24 17:26:07,447 autoreload 23588 20144 Watching for file changes with StatReloader
+INFO 2025-04-24 17:26:59,986 basehttp 23588 12868 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 17:27:00,107 basehttp 23588 12868 "GET /?format=openapi HTTP/1.1" 200 3555
+INFO 2025-04-24 17:27:27,310 basehttp 23588 12868 "POST /api/login/ HTTP/1.1" 200 1390
+INFO 2025-04-24 17:28:24,563 autoreload 23588 20144 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-24 17:28:25,262 autoreload 2716 15672 Watching for file changes with StatReloader
+INFO 2025-04-24 17:29:37,256 basehttp 2716 11028 "GET /admin/ HTTP/1.1" 200 9974
+INFO 2025-04-24 17:29:38,697 basehttp 2716 11028 "GET /admin/users/user/ HTTP/1.1" 200 20998
+INFO 2025-04-24 17:29:38,743 basehttp 2716 11028 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-24 17:33:14,630 autoreload 2716 15672 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 17:33:15,878 autoreload 26064 8324 Watching for file changes with StatReloader
+INFO 2025-04-24 17:34:34,554 autoreload 26064 8324 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:34:35,461 autoreload 2576 8560 Watching for file changes with StatReloader
+INFO 2025-04-24 17:35:54,417 autoreload 2576 8560 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-24 17:35:55,410 autoreload 19904 16600 Watching for file changes with StatReloader
+INFO 2025-04-24 17:35:58,062 basehttp 19904 4716 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 17:35:59,012 basehttp 19904 4716 "GET /?format=openapi HTTP/1.1" 200 4850
+INFO 2025-04-24 17:36:19,879 basehttp 19904 4716 "POST /api/social-sign-in/ HTTP/1.1" 200 1400
+ERROR 2025-04-24 17:36:37,589 log 19904 4716 Internal Server Error: /api/social-sign-in/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py", line 1022, in post
+    user = User.objects.get(email=email)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py", line 1025, in post
+    user = serializer.save()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py", line 260, in create
+    user = User.objects.create_user(
+KeyError: 'email'
+ERROR 2025-04-24 17:36:37,597 basehttp 19904 4716 "POST /api/social-sign-in/ HTTP/1.1" 500 22828
+INFO 2025-04-24 17:40:20,475 autoreload 19904 16600 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:40:21,488 autoreload 5896 26768 Watching for file changes with StatReloader
+INFO 2025-04-24 17:40:29,299 autoreload 5896 26768 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:40:30,252 autoreload 23068 26976 Watching for file changes with StatReloader
+WARNING 2025-04-24 17:40:44,802 log 23068 13828 Bad Request: /api/social-sign-in/
+WARNING 2025-04-24 17:40:44,802 basehttp 23068 13828 "POST /api/social-sign-in/ HTTP/1.1" 400 97
+WARNING 2025-04-24 17:55:45,219 log 23068 20828 Bad Request: /api/social-sign-in/
+WARNING 2025-04-24 17:55:45,220 basehttp 23068 20828 "POST /api/social-sign-in/ HTTP/1.1" 400 97
+INFO 2025-04-24 17:57:34,216 autoreload 23068 26976 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 17:57:34,910 autoreload 20804 10264 Watching for file changes with StatReloader
+ERROR 2025-04-24 17:57:45,449 log 20804 3272 Internal Server Error: /api/social-sign-in/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py", line 1022, in post
+    user = User.objects.get(email=email)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py", line 1025, in post
+    user = serializer.save()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py", line 260, in create
+    user = User.objects.create_user(
+KeyError: 'email'
+ERROR 2025-04-24 17:57:45,454 basehttp 20804 3272 "POST /api/social-sign-in/ HTTP/1.1" 500 22828
+INFO 2025-04-24 18:05:59,907 autoreload 20804 10264 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-24 18:06:00,589 autoreload 27576 1956 Watching for file changes with StatReloader
+INFO 2025-04-24 18:06:18,341 basehttp 27576 23064 "POST /api/social-sign-in/ HTTP/1.1" 200 1351
+INFO 2025-04-24 18:06:22,982 basehttp 27576 23064 "POST /api/social-sign-in/ HTTP/1.1" 200 1388
+INFO 2025-04-24 18:06:27,716 basehttp 27576 23064 "POST /api/social-sign-in/ HTTP/1.1" 200 1388
+INFO 2025-04-24 18:07:28,882 autoreload 27576 1956 C:\Users\hp\Desktop\Automated-Tutoring-System\users\models.py changed, reloading.
+INFO 2025-04-24 18:07:29,609 autoreload 18132 27220 Watching for file changes with StatReloader
+INFO 2025-04-24 18:11:30,453 autoreload 14244 9264 Watching for file changes with StatReloader
+INFO 2025-04-24 18:11:46,519 autoreload 14244 9264 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-24 18:11:47,194 autoreload 12528 16076 Watching for file changes with StatReloader
+INFO 2025-04-24 18:12:17,597 basehttp 12528 16284 "POST /api/register/ HTTP/1.1" 201 886
+INFO 2025-04-24 18:12:32,948 basehttp 12528 16284 "GET /admin/users/user/ HTTP/1.1" 200 22510
+INFO 2025-04-24 18:12:32,989 basehttp 12528 16284 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-24 18:17:05,005 autoreload 12528 16076 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 18:17:05,728 autoreload 18668 16656 Watching for file changes with StatReloader
+INFO 2025-04-24 18:17:32,031 autoreload 18668 16656 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-24 18:17:33,082 autoreload 16968 15924 Watching for file changes with StatReloader
+INFO 2025-04-24 18:18:24,099 autoreload 16968 15924 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 18:18:25,064 autoreload 10544 25972 Watching for file changes with StatReloader
+INFO 2025-04-24 18:18:27,453 basehttp 10544 9316 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 18:18:28,022 basehttp 10544 9316 "GET /?format=openapi HTTP/1.1" 200 5598
+INFO 2025-04-24 18:18:54,209 basehttp 10544 9316 "POST /api/verify-otp/ HTTP/1.1" 200 74
+INFO 2025-04-24 18:19:03,984 basehttp 10544 9316 "GET /admin/users/user/ HTTP/1.1" 200 22510
+INFO 2025-04-24 18:19:04,037 basehttp 10544 9316 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-24 18:20:28,361 autoreload 10544 25972 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 18:20:29,085 autoreload 4692 23456 Watching for file changes with StatReloader
+INFO 2025-04-24 18:21:13,400 autoreload 4692 23456 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 18:21:14,086 autoreload 11168 1816 Watching for file changes with StatReloader
+INFO 2025-04-24 18:21:20,110 basehttp 11168 17568 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 18:21:20,231 basehttp 11168 17568 "GET /?format=openapi HTTP/1.1" 200 5591
+INFO 2025-04-24 18:21:43,848 autoreload 11168 1816 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-24 18:21:44,506 autoreload 19392 3260 Watching for file changes with StatReloader
+INFO 2025-04-24 18:21:49,108 basehttp 19392 4272 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-24 18:21:49,388 basehttp 19392 4272 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-04-24 18:21:49,410 basehttp 19392 21096 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-04-24 18:21:49,418 basehttp 19392 4272 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-04-24 18:21:49,440 basehttp 19392 25688 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-04-24 18:21:49,447 basehttp 19392 1732 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-04-24 18:21:49,460 basehttp 19392 24424 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-04-24 18:21:49,557 basehttp 19392 11212 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-04-24 18:21:49,613 basehttp 19392 11212 "GET /?format=openapi HTTP/1.1" 200 5585
+INFO 2025-04-24 18:21:49,615 basehttp 19392 24424 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
