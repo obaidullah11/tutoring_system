@@ -22,6 +22,7 @@ urlpatterns = [
     # path("register-send-otp/", newSendOTPView.as_view(), name="send_otp"),
     # path("send-otp/", SendOTPView.as_view(), name="send_otp"),
     path("verify-otp/", VerifyOTPView.as_view(), name="verify_otp"),
+    path('register_student/', register_student, name='register_student'),
     # path('forgitpassword/', VerifyOTPResetPasswordAPIView.as_view(), name='verify-otp-reset-password'),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
@@ -34,4 +35,12 @@ urlpatterns = [
 # {
 #   "email": "jane.doe1@example.com",
 #   "password": "S3cur3P@ssw0rd"
+# }
+
+
+# {
+#     "email": "student@example.com",
+#     "first_name": "John",
+#     "last_name": "Doe"
+    
 # }

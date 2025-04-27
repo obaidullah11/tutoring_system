@@ -375,3 +375,271 @@ INFO 2025-04-24 18:21:49,460 basehttp 19392 24424 "GET /static/drf-yasg/swagger-
 INFO 2025-04-24 18:21:49,557 basehttp 19392 11212 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
 INFO 2025-04-24 18:21:49,613 basehttp 19392 11212 "GET /?format=openapi HTTP/1.1" 200 5585
 INFO 2025-04-24 18:21:49,615 basehttp 19392 24424 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2025-04-28 01:55:26,675 autoreload 23316 19548 Watching for file changes with StatReloader
+INFO 2025-04-28 02:01:18,178 autoreload 23316 19548 C:\Users\hp\Desktop\Automated-Tutoring-System\tutoring_system\urls.py changed, reloading.
+INFO 2025-04-28 02:01:18,887 autoreload 15812 18476 Watching for file changes with StatReloader
+INFO 2025-04-28 02:01:21,474 basehttp 15812 11444 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 02:01:21,868 basehttp 15812 5792 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-04-28 02:01:21,869 basehttp 15812 16292 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-04-28 02:01:21,887 basehttp 15812 5080 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-04-28 02:01:21,899 basehttp 15812 17936 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-04-28 02:01:22,011 basehttp 15812 18492 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+ERROR 2025-04-28 02:01:22,119 log 15812 11444 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 180, in get_responses
+    response_serializers = self.get_response_serializers()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 235, in get_response_serializers
+    responses = self.get_default_responses()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\view.py", line 211, in get_default_responses
+    default_schema = self.serializer_to_schema(default_schema) or ''
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 133, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\openapi.py", line 685, in setdefault
+    ret = maker()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\drf_yasg\inspectors\field.py", line 102, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1239, in build_field
+    return self.build_relational_field(field_name, relation_info)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1317, in build_relational_field
+    field_kwargs = get_relation_kwargs(field_name, relation_info)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\field_mapping.py", line 270, in get_relation_kwargs
+    kwargs['queryset'] = kwargs['queryset'].filter(limit_choices_to)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1468, in build_filter
+    return self._add_q(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'role' into field. Choices are: classroom, course, date_joined, device_token, email, first_name, groups, id, is_active, is_admin, is_approved, is_deleted, is_email_verified, is_mute, is_superuser, last_login, last_name, logentry, otp, password, phone_number, profile_pic, profile_pic_url, user_permissions, user_type, username
+ERROR 2025-04-28 02:01:22,128 basehttp 15812 11444 "GET /?format=openapi HTTP/1.1" 500 285681
+INFO 2025-04-28 02:02:28,435 autoreload 15812 18476 C:\Users\hp\Desktop\Automated-Tutoring-System\tutoring_system\settings.py changed, reloading.
+INFO 2025-04-28 02:02:29,231 autoreload 8668 25636 Watching for file changes with StatReloader
+INFO 2025-04-28 02:02:33,027 basehttp 8668 17984 "GET / HTTP/1.1" 200 1639
+ERROR 2025-04-28 02:02:33,625 basehttp 8668 17984 "GET /?format=openapi HTTP/1.1" 500 59
+INFO 2025-04-28 02:03:33,552 autoreload 8668 25636 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\models.py changed, reloading.
+INFO 2025-04-28 02:03:34,263 autoreload 14484 15464 Watching for file changes with StatReloader
+INFO 2025-04-28 02:03:55,338 autoreload 8020 15372 Watching for file changes with StatReloader
+INFO 2025-04-28 02:03:57,422 basehttp 8020 12284 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 02:03:57,594 basehttp 8020 12284 "GET /?format=openapi HTTP/1.1" 200 9779
+INFO 2025-04-28 02:04:50,749 basehttp 8020 12284 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 02:04:50,940 basehttp 8020 12284 "GET /?format=openapi HTTP/1.1" 200 9779
+INFO 2025-04-28 02:04:53,192 basehttp 8020 12284 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-04-28 02:04:53,244 basehttp 8020 12284 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3097
+INFO 2025-04-28 02:05:03,447 basehttp 8020 12284 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-04-28 02:05:03,544 basehttp 8020 12284 "GET /admin/ HTTP/1.1" 200 13944
+INFO 2025-04-28 02:05:07,672 basehttp 8020 12284 "GET /admin/users/user/ HTTP/1.1" 200 23622
+INFO 2025-04-28 02:05:07,735 basehttp 8020 12284 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-28 02:05:11,251 basehttp 8020 12284 "GET /admin/users/user/dd9653/change/ HTTP/1.1" 200 28211
+INFO 2025-04-28 02:05:11,282 basehttp 8020 12284 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-28 02:05:25,486 basehttp 8020 12284 "POST /admin/users/user/dd9653/change/ HTTP/1.1" 302 0
+INFO 2025-04-28 02:05:25,510 basehttp 8020 12284 "GET /admin/users/user/ HTTP/1.1" 200 24191
+INFO 2025-04-28 02:05:25,536 basehttp 8020 12284 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-28 02:06:00,715 basehttp 8020 12284 "POST /api/login/ HTTP/1.1" 200 1375
+WARNING 2025-04-28 02:06:33,399 log 8020 12284 Unauthorized: /api/classrooms/
+WARNING 2025-04-28 02:06:33,400 basehttp 8020 12284 "POST /api/classrooms/ HTTP/1.1" 401 176
+INFO 2025-04-28 02:07:00,683 autoreload 8020 15372 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\models.py changed, reloading.
+INFO 2025-04-28 02:07:01,420 autoreload 6956 14800 Watching for file changes with StatReloader
+INFO 2025-04-28 02:07:08,753 autoreload 6956 14800 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\models.py changed, reloading.
+INFO 2025-04-28 02:07:09,508 autoreload 27440 19256 Watching for file changes with StatReloader
+INFO 2025-04-28 02:07:23,331 autoreload 27440 19256 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\models.py changed, reloading.
+INFO 2025-04-28 02:07:24,047 autoreload 25244 5760 Watching for file changes with StatReloader
+INFO 2025-04-28 02:07:36,921 autoreload 22204 5492 Watching for file changes with StatReloader
+WARNING 2025-04-28 02:07:43,403 log 22204 9940 Unauthorized: /api/classrooms/
+WARNING 2025-04-28 02:07:43,403 basehttp 22204 9940 "POST /api/classrooms/ HTTP/1.1" 401 176
+WARNING 2025-04-28 02:07:46,098 log 22204 9940 Unauthorized: /api/classrooms/
+WARNING 2025-04-28 02:07:46,099 basehttp 22204 9940 "POST /api/classrooms/ HTTP/1.1" 401 176
+WARNING 2025-04-28 02:09:05,158 log 22204 9940 Bad Request: /api/classrooms/
+WARNING 2025-04-28 02:09:05,159 basehttp 22204 9940 "POST /api/classrooms/ HTTP/1.1" 400 42
+INFO 2025-04-28 02:10:50,045 autoreload 22204 5492 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\views.py changed, reloading.
+INFO 2025-04-28 02:10:50,889 autoreload 4880 16456 Watching for file changes with StatReloader
+INFO 2025-04-28 02:10:54,760 basehttp 4880 18416 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 02:10:55,109 basehttp 4880 18416 "GET /?format=openapi HTTP/1.1" 200 9779
+WARNING 2025-04-28 02:11:03,953 log 4880 18416 Bad Request: /api/classrooms/
+WARNING 2025-04-28 02:11:03,953 basehttp 4880 18416 "POST /api/classrooms/ HTTP/1.1" 400 42
+WARNING 2025-04-28 02:13:08,499 log 4880 18416 Bad Request: /api/classrooms/
+WARNING 2025-04-28 02:13:08,506 basehttp 4880 18416 "POST /api/classrooms/ HTTP/1.1" 400 42
+INFO 2025-04-28 02:14:02,892 autoreload 4880 16456 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\serializers.py changed, reloading.
+INFO 2025-04-28 02:14:03,618 autoreload 8344 11096 Watching for file changes with StatReloader
+INFO 2025-04-28 02:14:07,894 basehttp 8344 1832 "POST /api/classrooms/ HTTP/1.1" 201 184
+INFO 2025-04-28 02:17:50,008 autoreload 8344 11096 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\serializers.py changed, reloading.
+INFO 2025-04-28 02:17:50,719 autoreload 17644 11996 Watching for file changes with StatReloader
+INFO 2025-04-28 02:18:27,884 autoreload 17644 11996 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\views.py changed, reloading.
+INFO 2025-04-28 02:18:28,572 autoreload 19016 720 Watching for file changes with StatReloader
+INFO 2025-04-28 02:19:40,354 autoreload 19016 720 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\urls.py changed, reloading.
+INFO 2025-04-28 02:19:41,061 autoreload 23268 23004 Watching for file changes with StatReloader
+INFO 2025-04-28 02:19:58,167 autoreload 23268 23004 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\urls.py changed, reloading.
+INFO 2025-04-28 02:19:58,881 autoreload 23580 7552 Watching for file changes with StatReloader
+INFO 2025-04-28 02:20:02,124 basehttp 23580 20532 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 02:20:02,474 basehttp 23580 20532 "GET /?format=openapi HTTP/1.1" 200 10056
+INFO 2025-04-28 02:34:26,882 autoreload 23580 7552 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 02:34:27,584 autoreload 21868 17852 Watching for file changes with StatReloader
+INFO 2025-04-28 02:35:50,345 autoreload 21868 17852 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-28 02:35:51,077 autoreload 23492 25336 Watching for file changes with StatReloader
+INFO 2025-04-28 02:36:17,307 autoreload 23492 25336 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-28 02:36:18,008 autoreload 27536 9616 Watching for file changes with StatReloader
+INFO 2025-04-28 02:36:20,574 basehttp 27536 16268 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 02:36:20,828 basehttp 27536 16268 "GET /?format=openapi HTTP/1.1" 200 10260
+INFO 2025-04-28 02:38:09,111 autoreload 27536 9616 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-28 02:38:09,810 autoreload 24552 17912 Watching for file changes with StatReloader
+INFO 2025-04-28 02:38:14,550 basehttp 24552 7028 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 02:38:14,667 basehttp 24552 7028 "GET /?format=openapi HTTP/1.1" 200 12219
+INFO 2025-04-28 02:38:14,736 basehttp 24552 17148 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+ERROR 2025-04-28 02:39:38,530 basehttp 24552 17148 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 02:41:51,682 autoreload 24552 17912 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 02:41:52,394 autoreload 12384 18116 Watching for file changes with StatReloader
+INFO 2025-04-28 02:41:55,411 autoreload 12384 18116 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-28 02:41:56,113 autoreload 8108 25804 Watching for file changes with StatReloader
+ERROR 2025-04-28 02:42:07,995 basehttp 8108 9444 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 02:45:16,030 autoreload 8108 25804 C:\Users\hp\AppData\Local\Programs\Python\Python310\Lib\site-packages\django\contrib\auth\models.py changed, reloading.
+INFO 2025-04-28 02:45:16,795 autoreload 21368 13356 Watching for file changes with StatReloader
+INFO 2025-04-28 02:45:29,657 autoreload 8000 20280 Watching for file changes with StatReloader
+INFO 2025-04-28 02:47:17,400 autoreload 8000 20280 C:\Users\hp\AppData\Local\Programs\Python\Python310\Lib\site-packages\django\contrib\auth\models.py changed, reloading.
+INFO 2025-04-28 02:47:18,128 autoreload 2224 23352 Watching for file changes with StatReloader
+INFO 2025-04-28 02:47:41,967 autoreload 2224 23352 C:\Users\hp\Desktop\Automated-Tutoring-System\users\models.py changed, reloading.
+INFO 2025-04-28 02:47:42,690 autoreload 7784 19288 Watching for file changes with StatReloader
+INFO 2025-04-28 02:47:57,862 autoreload 14296 3008 Watching for file changes with StatReloader
+INFO 2025-04-28 02:48:28,286 autoreload 14296 3008 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 02:48:28,958 autoreload 2676 15716 Watching for file changes with StatReloader
+ERROR 2025-04-28 02:48:43,117 basehttp 2676 17440 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 02:49:44,868 autoreload 2676 15716 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 02:49:45,593 autoreload 26112 7152 Watching for file changes with StatReloader
+ERROR 2025-04-28 02:49:48,752 basehttp 26112 24532 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 02:51:35,668 autoreload 26112 7152 C:\Users\hp\Desktop\Automated-Tutoring-System\users\models.py changed, reloading.
+INFO 2025-04-28 02:51:36,387 autoreload 3440 11300 Watching for file changes with StatReloader
+ERROR 2025-04-28 02:51:42,170 basehttp 3440 9952 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 02:56:44,120 autoreload 3440 11300 C:\Users\hp\Desktop\Automated-Tutoring-System\users\models.py changed, reloading.
+INFO 2025-04-28 02:56:44,919 autoreload 19668 9892 Watching for file changes with StatReloader
+INFO 2025-04-28 02:57:29,280 autoreload 19668 9892 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 02:57:29,973 autoreload 15648 26228 Watching for file changes with StatReloader
+ERROR 2025-04-28 02:57:47,926 basehttp 15648 20272 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 02:58:53,599 autoreload 15648 26228 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 02:58:54,394 autoreload 8672 15232 Watching for file changes with StatReloader
+ERROR 2025-04-28 02:59:02,243 basehttp 8672 13396 "POST /api/register_student/ HTTP/1.1" 500 59
+ERROR 2025-04-28 02:59:42,955 basehttp 8672 13396 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 03:08:45,930 autoreload 8672 15232 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 03:08:46,698 autoreload 4996 24388 Watching for file changes with StatReloader
+INFO 2025-04-28 03:10:55,718 autoreload 4996 24388 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-28 03:10:56,467 autoreload 25948 9004 Watching for file changes with StatReloader
+INFO 2025-04-28 03:11:52,502 autoreload 25948 9004 C:\Users\hp\Desktop\Automated-Tutoring-System\users\views.py changed, reloading.
+INFO 2025-04-28 03:11:53,256 autoreload 1780 23316 Watching for file changes with StatReloader
+INFO 2025-04-28 03:12:18,002 autoreload 1780 23316 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-28 03:12:18,706 autoreload 14616 11300 Watching for file changes with StatReloader
+INFO 2025-04-28 03:12:21,676 basehttp 14616 9672 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 03:12:21,844 basehttp 14616 9672 "GET /?format=openapi HTTP/1.1" 200 10502
+ERROR 2025-04-28 03:12:44,707 basehttp 14616 9672 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 03:14:11,427 autoreload 14616 11300 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 03:14:12,179 autoreload 23032 13608 Watching for file changes with StatReloader
+INFO 2025-04-28 03:14:15,243 basehttp 23032 17196 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 03:14:15,650 basehttp 23032 17196 "GET /?format=openapi HTTP/1.1" 200 10502
+INFO 2025-04-28 03:14:21,299 basehttp 23032 17196 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 03:14:21,469 basehttp 23032 17196 "GET /?format=openapi HTTP/1.1" 200 10502
+INFO 2025-04-28 03:17:45,580 autoreload 23032 13608 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 03:17:46,275 autoreload 27392 4116 Watching for file changes with StatReloader
+INFO 2025-04-28 03:17:51,221 basehttp 27392 21432 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 03:17:51,337 basehttp 27392 21432 "GET /?format=openapi HTTP/1.1" 200 10502
+INFO 2025-04-28 03:18:33,788 basehttp 27392 21432 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 03:18:33,925 basehttp 27392 21432 "GET /?format=openapi HTTP/1.1" 200 10502
+INFO 2025-04-28 03:19:08,686 autoreload 27392 4116 C:\Users\hp\Desktop\Automated-Tutoring-System\adminpanel\urls.py changed, reloading.
+INFO 2025-04-28 03:19:09,365 autoreload 17372 6432 Watching for file changes with StatReloader
+INFO 2025-04-28 03:21:45,510 autoreload 960 17300 Watching for file changes with StatReloader
+INFO 2025-04-28 03:21:47,412 basehttp 960 22152 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 03:21:47,891 basehttp 960 22152 "GET /?format=openapi HTTP/1.1" 200 10304
+ERROR 2025-04-28 03:21:56,190 basehttp 960 22152 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 03:28:33,779 autoreload 960 17300 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 03:28:34,466 autoreload 9656 22656 Watching for file changes with StatReloader
+INFO 2025-04-28 03:28:40,994 basehttp 9656 19748 "GET / HTTP/1.1" 200 1639
+INFO 2025-04-28 03:28:41,388 basehttp 9656 19748 "GET /?format=openapi HTTP/1.1" 200 10304
+ERROR 2025-04-28 03:28:47,805 basehttp 9656 19748 "POST /api/register_student/ HTTP/1.1" 500 59
+WARNING 2025-04-28 03:29:01,481 log 9656 19748 Method Not Allowed: /api/register_student/
+WARNING 2025-04-28 03:29:01,481 basehttp 9656 19748 "GET /api/register_student/ HTTP/1.1" 405 10778
+INFO 2025-04-28 03:29:01,884 basehttp 9656 19748 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-04-28 03:29:01,906 basehttp 9656 12956 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-04-28 03:29:01,909 basehttp 9656 19748 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-04-28 03:29:01,910 basehttp 9656 23804 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-04-28 03:29:01,913 basehttp 9656 18100 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-04-28 03:29:01,913 basehttp 9656 27528 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-04-28 03:29:01,926 basehttp 9656 27528 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-04-28 03:29:01,930 basehttp 9656 18100 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-04-28 03:29:01,935 basehttp 9656 23804 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-04-28 03:29:01,949 basehttp 9656 19748 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-04-28 03:29:01,954 basehttp 9656 12552 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-04-28 03:29:01,962 basehttp 9656 12956 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+WARNING 2025-04-28 03:29:48,160 log 9656 12956 Bad Request: /api/register_student/
+WARNING 2025-04-28 03:29:48,161 basehttp 9656 12956 "POST /api/register_student/ HTTP/1.1" 400 10830
+ERROR 2025-04-28 03:30:00,260 basehttp 9656 12956 "POST /api/register_student/ HTTP/1.1" 500 59
+WARNING 2025-04-28 03:30:00,278 log 9656 12956 Method Not Allowed: /api/register_student/
+WARNING 2025-04-28 03:30:00,279 basehttp 9656 12956 "GET /api/register_student/ HTTP/1.1" 405 10778
+ERROR 2025-04-28 03:30:16,780 basehttp 9656 12956 "POST /api/register_student/ HTTP/1.1" 500 59
+WARNING 2025-04-28 03:30:16,795 log 9656 12956 Method Not Allowed: /api/register_student/
+WARNING 2025-04-28 03:30:16,796 basehttp 9656 12956 "GET /api/register_student/ HTTP/1.1" 405 10778
+ERROR 2025-04-28 03:30:57,293 basehttp 9656 21164 "POST /api/register_student/ HTTP/1.1" 500 59
+INFO 2025-04-28 03:31:57,285 basehttp 9656 20660 "POST /api/register_student/ HTTP/1.1" 201 70
+INFO 2025-04-28 03:32:44,984 autoreload 9656 22656 C:\Users\hp\Desktop\Automated-Tutoring-System\users\urls.py changed, reloading.
+INFO 2025-04-28 03:32:45,678 autoreload 13604 4852 Watching for file changes with StatReloader
+INFO 2025-04-28 03:34:28,046 basehttp 13604 22772 "GET /admin/users/user/ HTTP/1.1" 200 24374
+INFO 2025-04-28 03:34:28,097 basehttp 13604 22772 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-28 03:34:30,669 basehttp 13604 22772 "GET /admin/users/user/ HTTP/1.1" 200 24374
+INFO 2025-04-28 03:34:30,702 basehttp 13604 22772 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-04-28 03:35:28,021 autoreload 13604 4852 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 03:35:28,700 autoreload 20144 11224 Watching for file changes with StatReloader
+INFO 2025-04-28 03:36:03,334 autoreload 20144 11224 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
+INFO 2025-04-28 03:36:04,037 autoreload 21604 23956 Watching for file changes with StatReloader
+INFO 2025-04-28 03:37:32,114 basehttp 21604 25740 "POST /api/login/ HTTP/1.1" 200 1393

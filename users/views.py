@@ -291,4 +291,27 @@ class VerifyOTPView(APIView):
 #                 "full_name": request.user.get_full_name(),
 #             }
 #         }, status=status.HTTP_200_OK)
+from rest_framework import status
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from .serializers import *
 
+@api_view(['POST'])
+def register_student(request):
+    """
+    Register a new user (student) with a randomly generated password.
+    - `email`: User's email address.
+    - `first_name`: User's first name.
+    - `last_name`: User's last name.
+
+    The password will be randomly generated and sent to the user's email.
+    """
+    if request.method == 'POST':
+        serializer = studentRegistrationSerializer(data=request.data)
+        
+        if serializer.is_valid():
+            user = serializer.save()  # This will automatically send an email with the credentials
+            
+            return Response({"message": "User registered successfully, credentials sent to email."}, status=status.HTTP_201_CREATED)
+        
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

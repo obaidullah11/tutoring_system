@@ -24,6 +24,7 @@ EMAIL_HOST_PASSWORD = 'owgv yxkq kfin ylru'
 
 
 
+DEBUG_PROPAGATE_EXCEPTIONS = True
 
 # Development and deployment settings
 DEBUG = True
@@ -40,14 +41,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Third-party apps
-    # 'order_management',
+   
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
     'users',
     'sslserver',
     'drf_yasg',
+    'adminpanel',
     
    
 ]

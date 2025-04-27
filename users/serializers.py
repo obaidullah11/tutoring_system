@@ -227,9 +227,49 @@ class RegisterUserSerializer(serializers.ModelSerializer):
     
     
     
-    
-    
-    
+from rest_framework import serializers
+from .models import User
+import secrets
+import string
+
+class studentRegistrationSerializer(serializers.ModelSerializer):
+    # The password will not be exposed in the serializer, as it is generated automatically
+    password = serializers.CharField(write_only=True, required=False)
+
+    class Meta:
+        model = User
+        fields = ['email', 'first_name', 'last_name','password']
+
+    def generate_random_password(self, length=8):
+        """Generate a random password of specified length (default: 8)."""
+        alphabet = string.ascii_letters + string.digits  # Letters and digits
+        password = ''.join(secrets.choice(alphabet) for i in range(length))
+        return password
+
+    def create(self, validated_data):
+        # Generate a random password
+        password = self.generate_random_password()
+
+        # Create the user with the random password
+        user = User.objects.create_user(
+            email=validated_data['email'],
+            first_name=validated_data['first_name'],
+            last_name=validated_data['last_name'],
+            password=password,
+            is_email_verified=True,
+            user_type='student'  # Assign the default user_type as 'student'
+        )
+
+        # Send the email with user credentials
+        subject = "Welcome to the platform!"
+        message = f"Hello {user.first_name},\n\nYour account has been created successfully.\n\nYour credentials:\nEmail: {user.email}\nPassword: {password}\n\nBest regards,\nATS"
+        from_email = settings.DEFAULT_FROM_EMAIL
+        recipient_list = [user.email]
+
+        send_mail(subject, message, from_email, recipient_list)
+
+        return user
+
     
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
