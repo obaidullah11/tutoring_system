@@ -19,6 +19,46 @@ from django.contrib.auth import authenticate
 
 
 
+from rest_framework import serializers
+from users.models import User
+
+class UserProfileSerializernew(serializers.ModelSerializer):
+    # Return both refresh and access JWT tokens
+    # tokens = serializers.SerializerMethodField(read_only=True)
+
+    class Meta:
+        model = User
+        fields = [
+            # Primary key
+            'id',
+
+            # Identity
+            'email',
+            'username',
+            'first_name',
+            'last_name',
+
+            # Contact
+            'phone_number',
+
+            # Avatar
+            'profile_pic',
+            'profile_pic_url',
+
+            # Roles & flags
+            'user_type',
+            'is_admin',
+            'is_email_verified',
+            'is_approved',
+            'is_deleted',
+            'is_mute',
+
+            # Device
+            'device_token',
+
+            # Tokens
+
+        ]
 
 # class UserProfileSerializerv2(serializers.ModelSerializer):
 #     class Meta:
@@ -37,7 +77,7 @@ from django.contrib.auth import authenticate
 
 
 from rest_framework import serializers
-from users.models import User 
+from users.models import User
 
 class UserProfileSerializer(serializers.ModelSerializer):
     # Return both refresh and access JWT tokens
@@ -224,9 +264,9 @@ class RegisterUserSerializer(serializers.ModelSerializer):
     def get_tokens(self, obj):
         return obj.get_jwt_token()
 
-    
-    
-    
+
+
+
 from rest_framework import serializers
 from .models import User
 import secrets
@@ -270,7 +310,7 @@ class studentRegistrationSerializer(serializers.ModelSerializer):
 
         return user
 
-    
+
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
     password = serializers.CharField(write_only=True, required=True)

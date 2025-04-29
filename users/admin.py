@@ -4,7 +4,7 @@ from .models import User
 
 class UserAdmin(BaseUserAdmin):
     model = User
-    list_display = ('email', 'username', 'user_type', 'is_admin', 'is_email_verified', 'is_approved')
+    list_display = ('id','email', 'username', 'user_type', 'is_admin', 'is_email_verified', 'is_approved')
     list_filter = ('is_admin', 'user_type', 'is_email_verified', 'is_approved')
     search_fields = ('email', 'username')
     ordering = ('email',)

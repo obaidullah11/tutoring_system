@@ -2,6 +2,9 @@
 
 from rest_framework import serializers
 from .models import ClassRoom, Course
+from rest_framework import serializers
+from .models import ClassRoom, Course
+from users.models import User
 
 class ClassRoomSerializer(serializers.ModelSerializer):
     created_by = serializers.PrimaryKeyRelatedField(read_only=True)  # <-- Make this field read-only
@@ -10,12 +13,22 @@ class ClassRoomSerializer(serializers.ModelSerializer):
         model = ClassRoom
         fields = '__all__'
 
+from users.models import User  # Make sure you imported User
+
 class CourseSerializer(serializers.ModelSerializer):
-    created_by = serializers.PrimaryKeyRelatedField(read_only=True)  # <-- Make this field read-only
+
+    teacher = serializers.PrimaryKeyRelatedField(queryset=User.objects.filter(user_type='teacher'))  # <-- FIX
 
     class Meta:
         model = Course
         fields = '__all__'
+
+    def validate_teacher(self, value):
+        print("Validating teacher:", value)  # Debug print
+        if value.user_type != 'teacher':
+            raise serializers.ValidationError("Selected user is not a teacher.")
+        return value
+
 # serializers.py
 from rest_framework import serializers
 from users.models import User

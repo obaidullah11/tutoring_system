@@ -643,3 +643,24 @@ INFO 2025-04-28 03:35:28,700 autoreload 20144 11224 Watching for file changes wi
 INFO 2025-04-28 03:36:03,334 autoreload 20144 11224 C:\Users\hp\Desktop\Automated-Tutoring-System\users\serializers.py changed, reloading.
 INFO 2025-04-28 03:36:04,037 autoreload 21604 23956 Watching for file changes with StatReloader
 INFO 2025-04-28 03:37:32,114 basehttp 21604 25740 "POST /api/login/ HTTP/1.1" 200 1393
+WARNING 2025-04-28 06:40:50,400 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 06:52:06,000 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 06:53:29,929 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 22:50:09,401 log 2 132229494724480 Bad Request: /api/courses/
+WARNING 2025-04-28 22:52:17,058 log 2 132229494724480 Bad Request: /api/courses/
+WARNING 2025-04-28 22:52:28,920 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 22:52:55,766 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 22:53:00,828 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 22:53:02,470 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 22:54:23,876 log 2 132229494724480 Bad Request: /api/courses/
+WARNING 2025-04-28 22:57:35,622 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 22:58:36,016 log 2 132229494724480 Bad Request: /api/courses/
+WARNING 2025-04-28 22:59:12,123 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 23:02:17,481 log 2 132229494724480 Unauthorized: /api/courses/
+WARNING 2025-04-28 23:03:58,587 log 2 132229494724480 Bad Request: /api/courses/
+WARNING 2025-04-28 23:04:23,423 log 2 132229494724480 Bad Request: /api/courses/
+WARNING 2025-04-28 23:06:43,509 log 2 131790588311424 Bad Request: /api/courses/
+WARNING 2025-04-28 23:10:27,541 log 2 130678996952960 Bad Request: /api/courses/
+WARNING 2025-04-28 23:10:32,721 log 2 130678996952960 Bad Request: /api/courses/
+WARNING 2025-04-29 06:45:01,200 log 2 140600733190016 Unauthorized: /api/teachers/
+WARNING 2025-04-29 21:33:23,709 log 2 140600733190016 Bad Request: /api/login/

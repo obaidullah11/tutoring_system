@@ -96,7 +96,7 @@ class RegisterUserView(APIView):
         # Send welcome email (optional)
         email_sent = False
         try:
-            
+
             email_sent = True
         except Exception as e:
             logger.error("Welcome email failed for %s: %s", user.email, e)
@@ -240,7 +240,7 @@ class VerifyOTPView(APIView):
                 'success': True,
                 'message': 'OTP verified successfully and email verified.'
             }, status=status.HTTP_200_OK)
-        
+
         return Response({'detail': 'Invalid OTP.'}, status=status.HTTP_400_BAD_REQUEST)
 
 # #api to validate jwt
@@ -308,10 +308,38 @@ def register_student(request):
     """
     if request.method == 'POST':
         serializer = studentRegistrationSerializer(data=request.data)
-        
+
         if serializer.is_valid():
             user = serializer.save()  # This will automatically send an email with the credentials
-            
+
             return Response({"message": "User registered successfully, credentials sent to email."}, status=status.HTTP_201_CREATED)
-        
+
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+
+
+from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from users.models import User
+# from users.serializers import UserSerializer
+
+class TeacherListAPIView(generics.ListAPIView):
+    queryset = User.objects.filter(user_type='teacher')
+    serializer_class = UserProfileSerializernew
+    permission_classes = [IsAuthenticated]  # Only authenticated users can access this view
+
+    def list(self, request, *args, **kwargs):
+        """
+        Retrieve a list of all teachers (users with 'user_type' = 'teacher').
+        """
+        teachers = self.get_queryset()
+        serializer = self.get_serializer(teachers, many=True)
+        return Response({
+            "success": True,
+            "message": "Teachers fetched successfully",
+            "data": serializer.data
+        })
+

@@ -7,9 +7,9 @@ class ClassRoom(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True)
     created_by = models.ForeignKey(
-        settings.AUTH_USER_MODEL, 
+        settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
-        limit_choices_to={'user_type': 'Admin'}
+        limit_choices_to={'user_type': 'admin'}
     )
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -21,9 +21,9 @@ class Course(models.Model):
     description = models.TextField(blank=True)
     classroom = models.ForeignKey(ClassRoom, on_delete=models.CASCADE, related_name='courses')
     teacher = models.ForeignKey(
-        settings.AUTH_USER_MODEL, 
-        on_delete=models.CASCADE, 
-        limit_choices_to={'user_type': 'Admin'}
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        limit_choices_to={'user_type': 'admin'}
     )
     created_at = models.DateTimeField(auto_now_add=True)
 

@@ -6,7 +6,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 # from . views import *
 # user_profile_update = UserProfileViewSet.as_view({'patch': 'update_profile'})
 urlpatterns = [
-   
+
     # path("ChangeUserTypeView/", ChangeUserTypeView.as_view(), name="UserProfileView"),
     # path('check-email/', CheckEmailView.as_view(), name='check_email'),
     path('register/', RegisterUserView.as_view(), name='register-user'),
@@ -23,6 +23,7 @@ urlpatterns = [
     # path("send-otp/", SendOTPView.as_view(), name="send_otp"),
     path("verify-otp/", VerifyOTPView.as_view(), name="verify_otp"),
     path('register_student/', register_student, name='register_student'),
+    path('teachers/', TeacherListAPIView.as_view(), name='teacher-list'),
     # path('forgitpassword/', VerifyOTPResetPasswordAPIView.as_view(), name='verify-otp-reset-password'),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
@@ -42,5 +43,5 @@ urlpatterns = [
 #     "email": "student@example.com",
 #     "first_name": "John",
 #     "last_name": "Doe"
-    
+
 # }
